@@ -557,7 +557,13 @@ height: 100%;
   font-size: 20px;
 }
 }
+
+
+
 @media (max-width:425px) {
+  .section3{
+    height: auto;
+  }
   .section3 .child .row {
     display: -ms-flexbox;
     display: flex;
@@ -581,7 +587,7 @@ height: 100%;
 @media(max-width:375px){
   .section3 {
     width: 100%;
-    height: AUTO;
+ 
 }
 }
 /* ====================================== end section 3 ================================================= */

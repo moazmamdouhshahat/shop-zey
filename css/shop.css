@@ -354,8 +354,13 @@ height: 85%;
 }
 
 .section1 .containr .Home .main .row .printe-child {
-  width: 172px;
+  width: 145px;
 }
+    .section1 .containr .Home .main .row {
+        width: 100%;
+        margin: 0px;
+        height: 115%;
+    }
 .section1 .containr .Home .main .tab-content .tab-pane {
   width: 100%;
   height: 90%;
@@ -370,6 +375,9 @@ height: 85%;
 }
 .section1 .containr .Home .main {
   margin-bottom: 60%;
+}
+.section1 .containr .Home .main .row .printe-child {
+  width: 167px;
 }
 
 }
