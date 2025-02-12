@@ -1,0 +1,133 @@
+.section1{
+    width: 100%;
+    height: 100vh;
+background-color:rgb(218, 230, 240);
+}
+/* ==================================================== start navBar 1 =================================== */
+ 
+.section1 .navs{
+    width: 100%;
+    height: 30px;
+background-color:#212934;
+}
+.section1 .navs a{
+    color: rgb(252, 252, 252);
+}
+.section1 .navs .child-nav{
+    width: 50%;
+    height: 100%;
+padding-left: 15%;
+position: absolute;
+}
+.section1 .navs .child-nav a{
+   
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.section1 .navs .navbar-collapse{
+    width: 50%;
+    height: 100%;
+    padding-right: 20%;
+}
+/*===================================== end navBar=================== */
+
+
+/*===========================================================================  stArt navbar2============================================================   */
+.section1 .navs2{
+    width: 100%;
+    height:80px;
+background-color:white;
+box-shadow:0px 0px  10px ;
+} 
+.section1 .navs2 .log{
+    font-size: 50px;
+    padding-left: 15%;
+    color: #59ab6e;
+}
+.section1 .navs2 .navbar-collapse{
+    width: 70%;
+
+}
+.section1 .navs2 .navbar-collapse .nav-item a{
+color: rgba(0, 0, 0, 0.651);
+}
+.section1 .navs2 .navbar-collapse .nav-item a:hover{
+color: #9af3b0;
+}
+.section1 .navs2 .navbar-collapse .nav-item1{
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    margin-left: 8%;
+    margin-right:30px ;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.582);
+}
+.section1 .navs2 .navbar-collapse .nav-item2{
+    margin-left: 10%;
+    width: 30%;
+}
+/*===========================================================================  End navbar2============================================================   */
+/* -======================= Start home.row ==================== */
+.section1 .home{
+    width: 80%;
+height: 88%;
+    margin: auto;
+    justify-content: space-around;
+    
+}
+.section1 .home .main{
+width: 100%;
+height:60%;
+margin-top: 20px;
+background-color: bisque;
+}
+.section1 .home .main img{
+    width: 100%;
+    height: 100%;
+} .section1 .home .main .print{
+    width: 100%;
+    height: 20%;
+    margin-top: 20px;
+}
+.section1 .home .main .print .child{
+    justify-content: center;
+} 
+.section1 .home .text{
+    width: 100%;
+    height: 100%;
+}
+.section1 .home .text .card{
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    color: khaki;}
+
+    .section1 .home .text .card .card-body .model{
+        width: 100%;
+    }
+    @media (max-width:360px) {
+        .section1 {
+            width: 100%;
+            height: 114vh;
+            background-color: black;
+        }
+        .section1 .navs2{
+            height: auto;
+        }
+        .section1 .home {
+            width: 100%;
+            height: 100%;
+            margin: auto;
+            background-color: aliceblue;
+            justify-content: space-around;
+        }
+        .section1 .home .text .card {
+            height: 100%;
+            width: 109%;
+            margin: 0px;
+            margin-left: -15px;
+        }
+    }
